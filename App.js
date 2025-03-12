@@ -6,6 +6,9 @@ import Onboarding2 from './screens/Onboarding2';
 import Onboarding3 from './screens/Onboarding3';
 import AuthPage from './screens/AuthPage'; 
 import Home from './screens/Home';
+import Transaction from './screens/Transaction';
+import Budget from './screens/Budget';
+import Profile from './screens/Profile';
 
 const Stack = createNativeStackNavigator();
 
@@ -18,6 +21,9 @@ const App = () => {
         <Stack.Screen name="Onboarding3" component={Onboarding3} />
         <Stack.Screen name="Auth" component={AuthPage} />
         <Stack.Screen name="Home" component={Home} /> 
+        <Stack.Screen name="Transaction" component={Transaction} /> 
+        <Stack.Screen name="Budget" component={Budget} /> 
+        <Stack.Screen name="Profile" component={Profile} /> 
       </Stack.Navigator>
     </NavigationContainer>
   );
